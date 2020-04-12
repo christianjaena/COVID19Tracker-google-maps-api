@@ -23,6 +23,7 @@ function search(a) {
       google.maps.event.trigger(i.markers, 'click');
     }
   })
+  
 }
 
 function clearListeners() {
@@ -69,7 +70,7 @@ input.addEventListener("keyup", function (event) {
 function searchCountry() {
 
   var input = document.getElementById('searchBar').value;
-
+  
   document.getElementById('searchBar').value = "";
   for (let i of markers) {
     var a = input.toUpperCase();
@@ -78,10 +79,9 @@ function searchCountry() {
     if (a == b) {
       google.maps.event.trigger(i.markers, 'click');
       break;
-    }
-
+    }  
   }
-
+  
 }
 
 function initMap() {
