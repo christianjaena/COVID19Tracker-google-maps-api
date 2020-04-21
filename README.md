@@ -6,6 +6,5 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=YOURAPIKEY&callback=initMap"async defer></script>
 ```
 # Preview
-## Link: [https://ncovtracker.netlify.com](https://ncovtracker.netlify.com/)
 <img src="/preview.png">
 
